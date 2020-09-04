@@ -1,0 +1,19 @@
+{
+    "name": "rickmorty-component",
+    "version": "0.0.0",
+    "description": "Webcomponent rickmorty-component following open-wc recommendations",
+    "author": "rickmorty-component",
+    "license": "MIT",
+    "main": "index.js",
+    "module": "index.js",
+    "scripts": {
+        "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch"
+    },
+    "dependencies": {
+        "lit-element": "^2.2.1",
+        "lit-html": "^1.1.2"
+    },
+    "devDependencies": {
+        "es-dev-server": "^1.23.0"
+    }
+}
